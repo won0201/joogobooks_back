@@ -305,7 +305,7 @@ joongobooks
 - 병훈님
 - 예원님
     - 이슈 : SystemCheckError: System check identified some issues 에러 발생
-    - 해결 : auth.User.groups 와 user.User.groups가 충돌해서 발생한 에러였고, 원인을 찾아보니, 두 모델이 공통된 필드를 가지고 있기에 발생하는 충돌이었다. related_name을 추가하여 충돌을 방지하도록 하고, settings.py에서 기존 USER 모델 대신 새로 정의한 USER 모델을 사용하도록 AUTH_USER_MODEL 설정을 추가했다.
+    - 해결 : auth.User.groups 와 user.User.groups가 충돌해서 발생한 에러였고, 원인을 찾아보니, 두 모델이 공통된 필드를 가지고 있기에 발생하는 충돌이었습니다. related_name을 추가하여 충돌을 방지하도록 하고, settings.py에서 기존 USER 모델 대신 새로 정의한 USER 모델을 사용하도록 AUTH_USER_MODEL 설정을 추가했습니다.
  
 <p align="right"><a href="#top">(Top)</a></p>
 <br>
